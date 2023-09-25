@@ -1,0 +1,12 @@
+{
+  "version": 2,  // Use version 2 for Vercel configuration
+  "builds": [
+    {
+      "src": "api",  // Specify the path to your Nx project
+      "use": "@vercel/node",  // Or another builder depending on your project
+      "config": {
+        "api": "production"  // Specify your Nx project and configuration
+      }
+    }
+  ]
+}
