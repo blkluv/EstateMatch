@@ -2,10 +2,10 @@
   "name": "estate-match",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {
-    "start:api:dev": "yarn nx run api:serve --configuration=development",
-    "start:app:dev": "yarn nx run app:serve --configuration=development",
-  "build:prod": "yarn nx run api:build:production && yarn nx run app:build:production”
+ "scripts": {
+  "start:api:dev": "yarn nx run api:serve --configuration=development",
+  "start:app:dev": "yarn nx run app:serve --configuration=development",
+  "build:prod": "yarn nx run api:build:production && yarn nx run app:build:production"
   },
   "private": true,
   "dependencies": {
